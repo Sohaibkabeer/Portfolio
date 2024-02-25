@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(16, 16, 41);
+    color: white;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    background-color: rgb(30, 44, 40);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    opacity: 0.8;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(217, 164, 228);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.first>div {
+    /* > means only he first div will take the width */
+    width: 30%;
+    height: 400px;
+    margin: 120px 0px;
+}
+
+.leftSection {
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+.rightSection img {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.purple {
+    color: rgb(153, 82, 219);
+}
+.text-grey {
+    color: grey;
+}
+
+#element {
+    color: rgb(155, 83, 223);
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(89, 74, 104);
+    height: 1px;
+    margin: 10px 20px 20px 20px;
+}
+
+.second {
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.second h1{
+    font-size: 1.5rem;
+}
+
+.second .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 50px 0px;
+    display: flex;
+}
+
+.second .vertical{
+    background: white;
+    width: 1px;
+    height: 50px;
+    margin: 0px 120px;
+}
+
+.image-top{
+    position: relative;
+    top: -49px;
+    left: -23px;
+    width: 47px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 1px;
+    left: -4px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 10px;
+    left: -4px;
+    width: 150px;
+    color: rgb(112, 99, 124);
+}
+
+footer{
+    height: 150px;
+    background-color: rgb(59, 32, 59);
+}
+.footer{
+    height: 150px;
+    display: flex;
+}

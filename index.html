@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sohaib portfolio</title>
+    <link
+      rel="stylesheet"
+      href="C:\Users\VC\Desktop\react\Portfolio\style\style.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sohaib's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftSection">Hi, I am <span class="purple">Sohaib Kabeer.</span> 
+            <div>I am a software developer.</div>   
+            <span id="element"></span> 
+            </div>
+            <div class="rightSection"><img src="C:\Users\VC\Desktop\react\Portfolio\assets\dev-bg.png" alt=""></div>
+        </section>
+        <hr>
+        <section class="second">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img
+                    class="image-top" src="C:\Users\VC\Desktop\react\Portfolio\assets\developer.png" alt="">
+                    <div class="vertical-title">React Js Developer <span>(2021-2023)</span></div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At inventore, omnis atque aspernatur non labore pariatur quaerat laudantium, voluptatum iure porro laboriosam dolorem!</div>
+                </div>
+                <div class="vertical">
+                    <img
+                    class="image-top" src="C:\Users\VC\Desktop\react\Portfolio\assets\developer.png" alt="">
+                    <div class="vertical-title">React Js Developer <span>(2021-2023)</span></div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At inventore, omnis atque aspernatur non labore pariatur quaerat laudantium, voluptatum iure porro laboriosam dolorem!</div>
+                </div>
+                <div class="vertical">
+                    <img
+                    class="image-top" src="C:\Users\VC\Desktop\react\Portfolio\assets\developer.png" alt="">
+                    <div class="vertical-title">React Js Developer <span>(2021-2023)</span></div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At inventore, omnis atque aspernatur non labore pariatur quaerat laudantium, voluptatum iure porro laboriosam dolorem!</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </div>
+    </footer>
+    <!-- Typed.js script from github for animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Web</i> developer.', '&amp; a mobile app developer.'],
+          typeSpeed: 50,
+        });
+      </script>
+  </body>
+</html>
